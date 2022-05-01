@@ -1,0 +1,86 @@
+.App {
+  background-color: white;
+  min-height: 40vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+body {
+  background-color: rgb(8, 184, 145);
+}
+
+.croos{
+  text-decoration: line-through 2px red;
+  background-color:  #f0f0f0;
+}
+
+ul,li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.linorm{
+  position: relative;
+  height: 35px;
+  line-height: 35px;
+  text-align: left;
+  border: 1px solid #f69c55;
+  margin: 3px;
+}
+
+.litext {
+  position: absolute;
+  font-size: 32px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  top: 0px;
+  left: 60px;
+}
+
+.lidel{
+  position: absolute;
+  font-size: 32px;
+  height: 35px;
+  line-height: 35px;
+  text-align: right;
+  top: 0px;
+  right: 10px;
+}
+
+.container{
+  padding: 10px;
+  width: 95%;
+  height: auto;
+}
+
+.tall{
+  position: relative;
+  display: inline;
+  left: 250px;
+  width: 20%;
+}
+
+.btm {
+  padding: 10px;
+  border: none;
+  width: auto;
+  color: #f0f0f0;
+  font-size: 16px;
+}
+
+.btm_del {
+  background-color: #ca0303;
+}
+
+.btm_add {
+  background-color: #00b126;
+  width: 22%;
+}
+
+.btm_txt {
+  border: 1px solid #f69c55;
+  width: 70%;
+  color: #f69c55;
+}
